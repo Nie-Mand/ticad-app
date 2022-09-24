@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "npm run build:css && remix build",
+    "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
+    "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
+    "dev:css": "tailwindcss -w -i ./styles/app.css -o app/styles/app.css"
+  },
+  "dependencies": {
+    "@formiz/core": "^1.8.1",
+    "@formiz/validations": "^1.0.0",
+    "@progress/kendo-react-charts": "^5.5.0",
+    "@radix-ui/react-avatar": "^1.0.0",
+    "@remix-run/node": "^1.7.0",
+    "@remix-run/react": "^1.7.0",
+    "@remix-run/vercel": "^1.7.0",
+    "@vercel/node": "^2.4.4",
+    "apexcharts": "^3.35.5",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "claas": "^1.1.2",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-heatmap-grid": "^0.9.0",
+    "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.7.0",
+    "@remix-run/eslint-config": "^1.7.0",
+    "@remix-run/serve": "^1.7.0",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.8",
+    "concurrently": "^7.3.0",
+    "eslint": "^8.20.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

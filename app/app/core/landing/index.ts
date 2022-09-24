@@ -1,0 +1,5 @@
+export * from './Hero'
+export * from './Navbar'
+export * from './Features'
+export * from './Academy'
+export * from './Faza'

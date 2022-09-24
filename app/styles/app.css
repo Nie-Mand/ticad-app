@@ -1,0 +1,56 @@
+@import './intro.css';
+@import './sf.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply text-sm font-semibold  px-4 py-2 rounded-md text-white duration-200  
+    bg-green-500 hover:bg-green-600 
+    focus:ring-green-500 focus:ring-[3px] focus:ring-opacity-40
+    disabled:bg-opacity-25;
+  }
+
+  .input {
+    @apply text-sm  px-4 py-2 rounded-md border text-black font-light duration-200  
+    focus:ring-green-500 focus:ring-[3px] focus:ring-opacity-40  bg-white
+    focus:outline-none disabled:bg-opacity-25;
+  }
+
+  .input-container {
+    @apply bg-white text-sm px-4 py-2 rounded-md border text-black font-light duration-200  
+    focus-within:ring-green-500 focus-within:ring-[3px] focus-within:ring-opacity-20 flex items-center;
+  }
+  .input-inside {
+    @apply focus:outline-none disabled:bg-opacity-25 flex-1;
+  }
+}
+
+@layer base {
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #e2e8f0;
+  }
+}
+
+@font-face {
+  font-family: 'Ikaros';
+  src: url('/fonts/Ikaros.ttf');
+}
+
+.font-ikaros {
+  font-family: 'Ikaros';
+}
+
+.font-intro {
+  font-family: 'intro';
+}
+
+.font-sf {
+  font-family: 'sf';
+}

@@ -1,0 +1,3 @@
+- TEAM_NAME -> Footer
+- APP_NAME -> Navbars
+- Landing Page

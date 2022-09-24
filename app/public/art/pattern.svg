@@ -1,0 +1,12 @@
+<svg width="425" height="425" viewBox="0 0 425 425" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="150" height="150" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 212.132 424.264)" fill="#EAEAEA" />
+    <rect width="75" height="150" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 212.132 424.264)" fill="#1E1E1E" />
+    <rect width="75" height="150" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 212.132 424.264)" fill="#1E1E1E" />
+    <rect width="150" height="150" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 106.066 318.198)" fill="#B3F08E" />
+    <rect width="37.5" height="37.5" transform="matrix(-1 0 0 1 124.628 193.57)" fill="#20E70F" />
+    <rect x="106.066" y="106.066" width="150" height="150" transform="rotate(-45 106.066 106.066)" fill="#B3F08E" />
+    <path d="M106.066 106.066C119.995 92.1372 136.531 81.0883 154.73 73.5501C172.928 66.0119 192.434 62.132 212.132 62.132C231.83 62.132 251.336 66.0119 269.535 73.5501C287.733 81.0883 304.269 92.1372 318.198 106.066L212.132 212.132L106.066 106.066Z" fill="#20E70F" />
+    <rect x="212.132" y="212.132" width="150" height="150" transform="rotate(-45 212.132 212.132)" fill="#20E70F" />
+    <circle r="37.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 318.198 212.132)" fill="#1E1E1E" />
+</svg>
+    
